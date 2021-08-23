@@ -24,7 +24,7 @@ const AdsCarousel:React.FC<Props> = (props) => {
     } else if (current === props.ads.length-1) {
       setCurrent(0)
     }
-  }, 5000)
+  }, 20000)
 
 
   return (

@@ -27,7 +27,7 @@ const MazelCarousel:React.FC<Props> = (props) => {
     } else if (current === props.messages.length-1) {
       setCurrent(0)
     }
-  }, 5000)
+  }, 20000)
   
   return (
     <div className="mazel-o">
