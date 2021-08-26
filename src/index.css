@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Tinos&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
 /* 
 font-family: 'Rubik', sans-serif;
 font-family: 'Tinos', serif;
@@ -10,7 +10,7 @@ font-family: 'Tinos', serif;
   --image-height: 770px;
   --dark-blue: #446671;
   --font-main: "Rubik", sans-serif;
-  --font-new: 'Suez One', serif;
+  --font-new: "Suez One", serif;
 }
 
 body {
@@ -69,7 +69,7 @@ ul {
 }
 .img-car {
   position: absolute;
-  transform: translateX(200%);
+  /* transform: translateX(200%); */
   /* animation-delay: 0.1s; */
 }
 .img-show {
@@ -582,7 +582,7 @@ tr.inner-table {
   height: 500px;
   display: flex;
   justify-content: flex-end;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 .full-screen-btn:hover {
   opacity: 1;
@@ -593,7 +593,7 @@ tr.inner-table {
   height: 100vh;
   width: 100vw;
   z-index: 10;
-  background-color:rgba(0, 0, 0, 0.185);
+  background-color: rgba(0, 0, 0, 0.185);
 }
 
 .MuiDialog-paper,
@@ -602,7 +602,7 @@ tr.inner-table {
 }
 
 .btn-google-sheet {
-  background-color: #34A853;
+  background-color: #34a853;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -611,7 +611,7 @@ tr.inner-table {
   justify-content: space-between;
   align-items: center;
   max-width: 180px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .instructions > img {
@@ -620,14 +620,14 @@ tr.inner-table {
 
 .show-daf {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   color: var(--dark-blue);
   /* margin-top: 20px; */
   flex-direction: column;
   font-size: 30px;
 }
 .show-daf > p {
-  margin-bottom:0;
+  margin-bottom: 0;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
