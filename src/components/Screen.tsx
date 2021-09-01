@@ -156,19 +156,6 @@ const Screen = () => {
 
   return (
     <main className="Screen">
-      <div className="full-screen-btn">
-        <Fab
-          onClick={() =>
-            isFullScreen
-              ? document.exitFullscreen().then(() => setIsFullScreen(false))
-              : document.documentElement
-                  .requestFullscreen()
-                  .then(() => setIsFullScreen(true))
-          }
-        >
-          {isFullScreen ? <FullscreenExitIcon /> : <FullscreenIcon />}
-        </Fab>
-      </div>
       <div className="rect-border-out">
         <ImageCarousel images={images.concat(imagesH)} />
       </div>
